@@ -4,7 +4,7 @@ const stateData = {
 };
 const dataReducer = ( state = stateData, action ) => {
     switch ( action.type ) {
-        case 1: 
+        case undefined: 
         // eslint-disable-next-line no-unreachable
         return {...state} ;break;
         default: ;break;
